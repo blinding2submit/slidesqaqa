@@ -106,7 +106,9 @@ Once the analysis is complete, the browser shows the final JSON output, offering
 - The app uses per-slide PNG rendering plus extracted PDF text rather than direct PDF ingestion so that it can build contact sheets and control slide-local prompts.
 - Zero-question slides receive empty question arrays and `null` slide-level coverage/scaffolding scores in the final JSON.
 
-## System Architecture and Flow## How the streaming UI works
+## System Architecture and Flow
+
+### How the streaming UI works
 
 - The Flask `/analyze` route uses `stream_with_context(...)`.
 - The server emits timestamped status lines while each stage runs.

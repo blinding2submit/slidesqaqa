@@ -7,7 +7,7 @@
 [![PyMuPDF 1.24+](https://img.shields.io/badge/PyMuPDF-1.24+-blue)](https://pypi.org/project/PyMuPDF/)
 [![Pillow 10+](https://img.shields.io/badge/Pillow-10+-blue)](https://pypi.org/project/Pillow/)
 [![pydantic 2.6+](https://img.shields.io/badge/pydantic-2.6+-blue)](https://pypi.org/project/pydantic/)
-[![MIT License](https://img.shields.io/badge/License-MIT-brightgreen)](https://opensource.org/licenses/MIT)
+[![Apache 2.0 License](https://img.shields.io/badge/License-Apache%202.0-brightgreen)](https://opensource.org/licenses/Apache-2.0)
 
 This app uploads and/or downloads a PDF slide deck, asks for a citation, and then runs a three-pass Gemini workflow that produces one hierarchical JSON annotation file for the whole deck.
 
